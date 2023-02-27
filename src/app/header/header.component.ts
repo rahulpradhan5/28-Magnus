@@ -29,7 +29,9 @@ export class HeaderComponent implements OnInit {
                 console.log(event.url );
                 if(this.currentRoute=='/dashboard' || this.currentRoute=='/generate-E-pin' || this.currentRoute=='/network' || this.currentRoute=='/upgrade' || this.currentRoute=='/my-earnings' || this.currentRoute=='/ComposeMessage'
                 || this.currentRoute=='/tree' || this.currentRoute=='/GenerationTreeView' || this.currentRoute=='/MyDirect' || this.currentRoute=='/MyDownline' || this.currentRoute=='/Idwisedownline'
-                || this.currentRoute=='/CommisionLedger'  || this.currentRoute=='/TDSDetails'){
+                || this.currentRoute=='/CommisionLedger'  || this.currentRoute=='/TDSDetails'  || this.currentRoute == '/Inbox' || this.currentRoute == '/Sent' || this.currentRoute == '/Folders' || this.currentRoute == '/CheckEpin' || this.currentRoute == '/MemberEpinLogin' || this.currentRoute == '/EPinChangePassword'
+                || this.currentRoute == '/EPinChangePassword' || this.currentRoute == '/EPinChangePassword' || this.currentRoute == "/RankQualifiersReport" || this.currentRoute == '/LevelReconcilationReport' || this.currentRoute == '/RankQualifiersReport'
+                || this.currentRoute == '/SchemeOfferDetailsReport' || this.currentRoute == '/MatchingIncomeReconsulationReport' || this.currentRoute == '/RenewalIncomeReconciliationReport'){
                       this.set=false;
                 }
           }

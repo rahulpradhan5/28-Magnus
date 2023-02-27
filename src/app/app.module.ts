@@ -6,10 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
-import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
-import { provideAuth,getAuth } from '@angular/fire/auth';
-import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { provideAuth, getAuth } from '@angular/fire/auth';
+import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { RegistrationComponent } from './registration/registration.component';
@@ -48,14 +48,25 @@ import { Tree1AlComponent } from './tree1-al/tree1-al.component';
 import { DashboardRoutesModule } from './dashboard-routes/dashboard-routes.module';
 import { EpinComponent } from './epin/epin.component';
 import { ComposemessageComponent } from './composemessage/composemessage.component';
-import { GenerationTreeComponent } from './generation-tree/generation-tree.component';
+ import { GenerationTreeComponent } from './generation-tree/generation-tree.component';
 import { IdwisedownlineComponent } from './idwisedownline/idwisedownline.component';
 import { MyDirectComponent } from './my-direct/my-direct.component';
 import { MyDownlineComponent } from './my-downline/my-downline.component';
 import { GenerationDownlineComponent } from './generation-downline/generation-downline.component';
 import { CommisionLedgerComponent } from './commision-ledger/commision-ledger.component';
 import { TDSDetailsComponent } from './tdsdetails/tdsdetails.component';
-@NgModule({
+ import { InboxComponent } from './inbox/inbox.component';
+import { SentComponent } from './sent/sent.component';
+import { FoldersComponent } from './folders/folders.component';
+import { CheckEpinComponent } from './check-epin/check-epin.component';
+import { MemberEpinLoginComponent } from './member-epin-login/member-epin-login.component';
+import { EPinChangePasswordComponent } from './epin-change-password/epin-change-password.component';
+import { LevelReconcilationReportComponent } from './level-reconcilation-report/level-reconcilation-report.component';
+import { RankQualifiersReportComponent } from './rank-qualifiers-report/rank-qualifiers-report.component';
+import { RenewalIncomeReconciliationReportComponent } from './renewal-income-reconciliation-report/renewal-income-reconciliation-report.component';
+import { MatchingIncomeReconsulationReportComponent } from './matching-income-reconsulation-report/matching-income-reconsulation-report.component';
+import { SchemeOfferDetailsReportComponent } from './scheme-offer-details-report/scheme-offer-details-report.component';
+ @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
@@ -96,14 +107,25 @@ import { TDSDetailsComponent } from './tdsdetails/tdsdetails.component';
     Tree1AlComponent,
     EpinComponent,
     ComposemessageComponent,
-    GenerationTreeComponent,
+     GenerationTreeComponent,
     IdwisedownlineComponent,
     MyDirectComponent,
     MyDownlineComponent,
     GenerationDownlineComponent,
     CommisionLedgerComponent,
-    TDSDetailsComponent
-  ],
+    TDSDetailsComponent,
+     InboxComponent,
+    SentComponent,
+    FoldersComponent,
+    CheckEpinComponent,
+    MemberEpinLoginComponent,
+    EPinChangePasswordComponent,
+    LevelReconcilationReportComponent,
+    RankQualifiersReportComponent,
+    RenewalIncomeReconciliationReportComponent,
+    MatchingIncomeReconsulationReportComponent,
+    SchemeOfferDetailsReportComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -40,9 +40,21 @@ import { TreeviewWgComponent } from './treeview-wg/treeview-wg.component';
 import { UiCardComponent } from './ui-card/ui-card.component';
 import { UpgradeSubscriptionComponent } from './upgrade-subscription/upgrade-subscription.component';
 import { VideosComponent } from './videos/videos.component';
+import { InboxComponent } from './inbox/inbox.component';
+import { SentComponent } from './sent/sent.component';
+import { FoldersComponent } from './folders/folders.component';
+import { CheckEpinComponent } from './check-epin/check-epin.component';
+import { MemberEpinLoginComponent } from './member-epin-login/member-epin-login.component';
+import { EPinChangePasswordComponent } from './epin-change-password/epin-change-password.component';
+import { RankQualifiersReportComponent } from './rank-qualifiers-report/rank-qualifiers-report.component';
+import { LevelReconcilationReportComponent } from './level-reconcilation-report/level-reconcilation-report.component';
+import { SchemeOfferDetailsReportComponent } from './scheme-offer-details-report/scheme-offer-details-report.component';
+import { MatchingIncomeReconsulationReportComponent } from './matching-income-reconsulation-report/matching-income-reconsulation-report.component';
+import { RenewalIncomeReconciliationReportComponent } from './renewal-income-reconciliation-report/renewal-income-reconciliation-report.component';
+
 
 const routes: Routes = [
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
+   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path:'redirect/:parent/redirect',component:UiCardComponent},
   {path: 'about-us', component: AboutUsComponent},
@@ -78,6 +90,50 @@ const routes: Routes = [
   {path: 'Idwisedownline', component: IdwisedownlineComponent},
   {path: 'TDSDetails', component: TDSDetailsComponent},
   {path: 'CommisionLedger', component: CommisionLedgerComponent},
+   { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'redirect/:parent/redirect', component: UiCardComponent },
+  { path: 'about-us', component: AboutUsComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: ':id/:branch', component: RegistrationComponent },
+  { path: 'courses', component: CoursesComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'payment', component: PaymentComponent },
+  { path: 'pricing', component: PricingComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'invite', component: InviteComponent },
+  { path: 'profile-details', component: ProfileDetailsComponent },
+  { path: 'show-tree-view/:parent/tree', component: ShowTreeViewComponent },
+  { path: 'videos', component: VideosComponent },
+  { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'legal-doc', component: LegalDocumentComponent },
+  { path: 'network', component: NetworkComponent },
+  { path: 'apply-filter', component: ApplyFlitersComponent },
+  { path: 'filter-result', component: FilterResultComponent },
+  { path: 'my-earnings', component: EarningsComponent },
+  { path: 'show-earnings', component: TotalEarningsComponent },
+  { path: 'generate-E-pin', component: GenerateEpinComponent },
+  { path: 'transfer-E-pin', component: TransferEpinComponent },
+  { path: 'success-e-pin', component: SuccessEpinComponent },
+  { path: 'upgrade', component: UpgradeSubscriptionComponent },
+  { path: 'dashboard-al', component: DashboardWgComponent },
+  { path: 'tree-al', component: TreeviewWgComponent },
+  { path: 'ComposeMessage', component: ComposemessageComponent },
+  { path: 'Inbox', component: InboxComponent },
+  { path: 'Sent', component: SentComponent },
+  { path: 'Folders', component: FoldersComponent },
+  { path: 'CheckEpin', component: CheckEpinComponent },
+  { path: 'MemberEpinLogin', component: MemberEpinLoginComponent },
+  { path: 'EPinChangePassword', component: EPinChangePasswordComponent },
+  { path: 'RankQualifiersReport', component: RankQualifiersReportComponent },
+  { path: 'LevelReconcilationReport', component: LevelReconcilationReportComponent },
+  { path: 'SchemeOfferDetailsReport', component: SchemeOfferDetailsReportComponent },
+  { path: 'MatchingIncomeReconsulationReport', component: MatchingIncomeReconsulationReportComponent },
+  { path: 'RenewalIncomeReconciliationReport', component: RenewalIncomeReconciliationReportComponent },
+
+
+
+ 
 ];
 
 @NgModule({
