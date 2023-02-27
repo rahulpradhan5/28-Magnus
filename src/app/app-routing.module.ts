@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ApplyFlitersComponent } from './apply-fliters/apply-fliters.component';
+import { CommisionLedgerComponent } from './commision-ledger/commision-ledger.component';
 import { ComposemessageComponent } from './composemessage/composemessage.component';
 import { ContactComponent } from './contact/contact.component';
 import { CoursesComponent } from './courses/courses.component';
@@ -12,12 +13,17 @@ import { EarningsComponent } from './earnings/earnings.component';
 import { EpinComponent } from './epin/epin.component';
 import { FilterResultComponent } from './filter-result/filter-result.component';
 import { GenerateEpinComponent } from './generate-epin/generate-epin.component';
+import { GenerationDownlineComponent } from './generation-downline/generation-downline.component';
+import { GenerationTreeComponent } from './generation-tree/generation-tree.component';
 import { HomeComponent } from './home/home.component';
+import { IdwisedownlineComponent } from './idwisedownline/idwisedownline.component';
 import { InviteLeftComponentComponent } from './invite-left-component/invite-left-component.component';
 import { InviteRightComponentComponent } from './invite-right-component/invite-right-component.component';
 import { InviteComponent } from './invite/invite.component';
 import { LegalDocumentComponent } from './legal-document/legal-document.component';
 import { LoginComponent } from './login/login.component';
+import { MyDirectComponent } from './my-direct/my-direct.component';
+import { MyDownlineComponent } from './my-downline/my-downline.component';
 import { NetworkComponent } from './network/network.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PricingComponent } from './pricing/pricing.component';
@@ -27,6 +33,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ShowTreeViewComponent } from './show-tree-view/show-tree-view.component';
 import { SuccessEpinComponent } from './success-epin/success-epin.component';
+import { TDSDetailsComponent } from './tdsdetails/tdsdetails.component';
 import { TotalEarningsComponent } from './total-earnings/total-earnings.component';
 import { TransferEpinComponent } from './transfer-epin/transfer-epin.component';
 import { TreeviewWgComponent } from './treeview-wg/treeview-wg.component';
@@ -62,9 +69,15 @@ const routes: Routes = [
   {path: 'success-e-pin', component: SuccessEpinComponent},
   {path: 'upgrade', component: UpgradeSubscriptionComponent},
   {path: 'dashboard-al', component: DashboardWgComponent},
-  {path: 'tree-al', component: TreeviewWgComponent},
+  {path: 'tree', component: TreeviewWgComponent},
   {path: 'ComposeMessage', component: ComposemessageComponent},
-
+  {path: 'GenerationTreeView', component: GenerationTreeComponent},
+  {path: 'MyDirect', component: MyDirectComponent},
+  {path: 'MyDownline', component: MyDownlineComponent},
+  {path: 'GenerationDownline', component: GenerationDownlineComponent},
+  {path: 'Idwisedownline', component: IdwisedownlineComponent},
+  {path: 'TDSDetails', component: TDSDetailsComponent},
+  {path: 'CommisionLedger', component: CommisionLedgerComponent},
 ];
 
 @NgModule({

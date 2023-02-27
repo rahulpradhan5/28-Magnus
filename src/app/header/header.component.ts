@@ -28,7 +28,8 @@ export class HeaderComponent implements OnInit {
               this.currentRoute = event.url;
                 console.log(event.url );
                 if(this.currentRoute=='/dashboard' || this.currentRoute=='/generate-E-pin' || this.currentRoute=='/network' || this.currentRoute=='/upgrade' || this.currentRoute=='/my-earnings' || this.currentRoute=='/ComposeMessage'
-                || this.currentRoute=='/generate-E-pin' || this.currentRoute=='/generate-E-pin' || this.currentRoute=='/generate-E-pin' || this.currentRoute=='/generate-E-pin'){
+                || this.currentRoute=='/tree' || this.currentRoute=='/GenerationTreeView' || this.currentRoute=='/MyDirect' || this.currentRoute=='/MyDownline' || this.currentRoute=='/Idwisedownline'
+                || this.currentRoute=='/CommisionLedger'  || this.currentRoute=='/TDSDetails'){
                       this.set=false;
                 }
           }

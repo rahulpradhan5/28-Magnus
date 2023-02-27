@@ -37,7 +37,7 @@ import { TransferEpinComponent } from './transfer-epin/transfer-epin.component';
 import { SuccessEpinComponent } from './success-epin/success-epin.component';
 import { UpgradeSubscriptionComponent } from './upgrade-subscription/upgrade-subscription.component';
 import { AboutService } from './services/about.service';
-import {AngularFireModule} from '@angular/fire/compat'
+import { AngularFireModule } from '@angular/fire/compat'
 import { FormsModule } from '@angular/forms';
 import { InviteRightComponentComponent } from './invite-right-component/invite-right-component.component';
 import { InviteLeftComponentComponent } from './invite-left-component/invite-left-component.component';
@@ -48,6 +48,13 @@ import { Tree1AlComponent } from './tree1-al/tree1-al.component';
 import { DashboardRoutesModule } from './dashboard-routes/dashboard-routes.module';
 import { EpinComponent } from './epin/epin.component';
 import { ComposemessageComponent } from './composemessage/composemessage.component';
+import { GenerationTreeComponent } from './generation-tree/generation-tree.component';
+import { IdwisedownlineComponent } from './idwisedownline/idwisedownline.component';
+import { MyDirectComponent } from './my-direct/my-direct.component';
+import { MyDownlineComponent } from './my-downline/my-downline.component';
+import { GenerationDownlineComponent } from './generation-downline/generation-downline.component';
+import { CommisionLedgerComponent } from './commision-ledger/commision-ledger.component';
+import { TDSDetailsComponent } from './tdsdetails/tdsdetails.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -88,7 +95,14 @@ import { ComposemessageComponent } from './composemessage/composemessage.compone
     TreeviewWgComponent,
     Tree1AlComponent,
     EpinComponent,
-    ComposemessageComponent
+    ComposemessageComponent,
+    GenerationTreeComponent,
+    IdwisedownlineComponent,
+    MyDirectComponent,
+    MyDownlineComponent,
+    GenerationDownlineComponent,
+    CommisionLedgerComponent,
+    TDSDetailsComponent
   ],
   imports: [
     BrowserModule,
