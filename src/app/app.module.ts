@@ -66,6 +66,15 @@ import { RankQualifiersReportComponent } from './rank-qualifiers-report/rank-qua
 import { RenewalIncomeReconciliationReportComponent } from './renewal-income-reconciliation-report/renewal-income-reconciliation-report.component';
 import { MatchingIncomeReconsulationReportComponent } from './matching-income-reconsulation-report/matching-income-reconsulation-report.component';
 import { SchemeOfferDetailsReportComponent } from './scheme-offer-details-report/scheme-offer-details-report.component';
+import { WelcomeLetterDetailsComponent } from './welcome-letter-details/welcome-letter-details.component';
+import { CustomerinfoComponent } from './customerinfo/customerinfo.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
+import { CustomerInvoicesComponent } from './customer-invoices/customer-invoices.component';
+import { CustomerKYCDocumentComponent } from './customer-kycdocument/customer-kycdocument.component';
+import { DownloadComponent } from './download/download.component';
+import { CustomerChangepasswordComponent } from './customer-changepassword/customer-changepassword.component';
+import { RenewalDetailsComponent } from './renewal-details/renewal-details.component';
+import { ShowIdCardDetailsComponent } from './show-id-card-details/show-id-card-details.component';
  @NgModule({
   declarations: [
     AppComponent,
@@ -124,7 +133,16 @@ import { SchemeOfferDetailsReportComponent } from './scheme-offer-details-report
     RankQualifiersReportComponent,
     RenewalIncomeReconciliationReportComponent,
     MatchingIncomeReconsulationReportComponent,
-    SchemeOfferDetailsReportComponent
+    SchemeOfferDetailsReportComponent,
+    WelcomeLetterDetailsComponent,
+    CustomerinfoComponent,
+    OrderHistoryComponent,
+    CustomerInvoicesComponent,
+    CustomerKYCDocumentComponent,
+    DownloadComponent,
+    CustomerChangepasswordComponent,
+    RenewalDetailsComponent,
+    ShowIdCardDetailsComponent
    ],
   imports: [
     BrowserModule,

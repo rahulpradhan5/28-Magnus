@@ -51,6 +51,15 @@ import { LevelReconcilationReportComponent } from './level-reconcilation-report/
 import { SchemeOfferDetailsReportComponent } from './scheme-offer-details-report/scheme-offer-details-report.component';
 import { MatchingIncomeReconsulationReportComponent } from './matching-income-reconsulation-report/matching-income-reconsulation-report.component';
 import { RenewalIncomeReconciliationReportComponent } from './renewal-income-reconciliation-report/renewal-income-reconciliation-report.component';
+import { WelcomeLetterDetailsComponent } from './welcome-letter-details/welcome-letter-details.component';
+import { ShowIdCardDetailsComponent } from './show-id-card-details/show-id-card-details.component';
+import { RenewalDetailsComponent } from './renewal-details/renewal-details.component';
+import { CustomerChangepasswordComponent } from './customer-changepassword/customer-changepassword.component';
+import { DownloadComponent } from './download/download.component';
+import { CustomerKYCDocumentComponent } from './customer-kycdocument/customer-kycdocument.component';
+import { CustomerInvoicesComponent } from './customer-invoices/customer-invoices.component';
+import { OrderHistoryComponent } from './order-history/order-history.component';
+import { CustomerinfoComponent } from './customerinfo/customerinfo.component';
 
 
 const routes: Routes = [
@@ -79,7 +88,7 @@ const routes: Routes = [
   { path: 'generate-E-pin', component: GenerateEpinComponent },
   { path: 'transfer-E-pin', component: TransferEpinComponent },
   { path: 'success-e-pin', component: SuccessEpinComponent },
-  { path: 'upgrade', component: UpgradeSubscriptionComponent },
+  { path: 'UpgradeDetails', component: UpgradeSubscriptionComponent },
   { path: 'dashboard-al', component: DashboardWgComponent },
   { path: 'tree', component: TreeviewWgComponent },
   { path: 'ComposeMessage', component: ComposemessageComponent },
@@ -130,6 +139,24 @@ const routes: Routes = [
   { path: 'SchemeOfferDetailsReport', component: SchemeOfferDetailsReportComponent },
   { path: 'MatchingIncomeReconsulationReport', component: MatchingIncomeReconsulationReportComponent },
   { path: 'RenewalIncomeReconciliationReport', component: RenewalIncomeReconciliationReportComponent },
+  { path: 'WelcomeLetterDetails', component: WelcomeLetterDetailsComponent },
+  { path: 'ShowIdCardDetails', component: ShowIdCardDetailsComponent },
+  { path: 'RenewalDetails', component: RenewalDetailsComponent },
+  { path: 'customerChangepassword', component: CustomerChangepasswordComponent },
+  { path: 'download', component: DownloadComponent },
+  { path: 'CustomerKYCDocument', component: CustomerKYCDocumentComponent },
+  { path: 'CustomerInvoices', component: CustomerInvoicesComponent },
+  { path: 'OrderHistory', component: OrderHistoryComponent },
+  { path: 'CustomerInvoices', component: CustomerInvoicesComponent },
+  { path: 'Customerinfo', component: CustomerinfoComponent }
+
+
+
+
+
+
+
+
 
 
 
