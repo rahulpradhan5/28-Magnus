@@ -1,5 +1,4 @@
-     
-<style type="text/css">
+<!-- <style type="text/css">
     .loader {
         height: 80px;
         width: 80px;
@@ -62,21 +61,16 @@
         font: 10px arial, san serif;
         text-align: left;
     }
-</style>
+</style> -->
 
-<body class="materialdesign">
+
 <!-- Header top area start-->
 <div class="wrapper-pro">
     <div class="left-sidebar-pro">
         <app-side-menu></app-side-menu>
-
     </div>
 
     <div class="content-inner-all">
-        
-
-
-
         <!-- stockprice, feed area end-->
         <!-- Data table area Start-->
         <div class="admin-dashone-data-table-area">
@@ -412,8 +406,7 @@
 
 
 
-                        <div class="sparkline16-hd  wow fadeIn"
-                            style="visibility: visible; animation-name: fadeIn;">
+                        <div class="sparkline16-hd  wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                             <div class="main-sparkline16-hd">
                                 <h1 class="WelcomeNameAlig">
                                     <label> Welcome <span class="floating" style="font-family: unset;">Abhinandan
@@ -423,8 +416,7 @@
                                     style="padding:0.2em 0.5em;cursor:pointer;">
 
                                     <span id="panaleButton" class="collapsed" data-toggle="collapse"
-                                        href="#collapseGrid" aria-expanded="false"
-                                        aria-controls="collapseGrid"></span>
+                                        href="#collapseGrid" aria-expanded="false" aria-controls="collapseGrid"></span>
 
                                 </div>
                             </div>
@@ -606,8 +598,7 @@ padding-left: 10px;">
                                                             </div>
                                                         </div>
                                                         <div class="panel-footer">
-                                                            <a class="" href="/RenewalDetails"
-                                                                title="RenewalDetails">
+                                                            <a class="" href="/RenewalDetails" title="RenewalDetails">
                                                                 <span class="pull-left">View Details</span>
                                                                 <span class="pull-right">
                                                                     <i class="fa fa-arrow-circle-right"></i>
@@ -638,8 +629,7 @@ padding-left: 10px;">
                                                             </div>
                                                         </div>
                                                         <div class="panel-footer">
-                                                            <a class="" href="/RenewalDetails"
-                                                                title="RenewalDetails">
+                                                            <a class="" href="/RenewalDetails" title="RenewalDetails">
                                                                 <span class="pull-left">View Details</span>
                                                                 <span class="pull-right">
                                                                     <i class="fa fa-arrow-circle-right"></i>
@@ -744,8 +734,7 @@ padding-left: 10px;">
                                                 title="CurrentRank">
 
                                             </a>
-                                        </div><a class="" href="/Achivement/RankQualifiersReport"
-                                            title="CurrentRank">
+                                        </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
                                         </a>
                                     </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
                                     </a>
@@ -753,7 +742,7 @@ padding-left: 10px;">
                                 </a>
                             </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
                             </a>
-                        </div><a class="" href="/Achivement/RankQualifiersReport"      title="CurrentRank">
+                        </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
 
                             <div class="sparkline16-list">
                                 <div class="sparkline16-graph">
@@ -967,8 +956,8 @@ padding-left: 10px;">
                                                                                     <td data-label="Status"><img
                                                                                             src="data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEsUlEQVR42rVXXUhUWxS2tCRN4/ZwC6KkuhWXXkS4QfWS9RBEEpciIiJ86OFCSUb0EIQ3ulAkSUTNQ1RUg3XDyyVzkDEpTRMbTE37syFGQyoLTcL5O3Nm5uy+tWfvw+ZwRh2PHfg4Bz1nf9/61tpr7cnKmsEVr6v7PdnX93dyaKgeaEi+fn0u3tBQkvWzr/jDh1tYJDLG0l26Hk48fbr7p5AnurvPMsNIEeGu37zJohUVLHr4MItdvMggzNSRfPfu9uySP378lySPXbrEhhcuZO8BPzAAvMrPZ29w106cMEUkfL7qWSHHwgUm+Zkz7AOIPgIkgp4HhRgS0AMhkb17TZfw/rrZsN7NbX35kn0GyZeCAn63CvALEV0QEa+vl6lodURenJ09x/j06SMtFtm1yxSgOhCwCCAXgsuXp0wIhaJYI8eJgDyWSHA7xwXxZyUFg4qAASGA6oFE8KLEd+FNm1bNWEBw6dIiLgCLDQvS4TT2SwH9IKc0oD9wAZF9+zY6cWAR0zRGIsj6QUH8IU30UgA5APv5d3j3NycC5qOQUjVQVsYjlcQBm+hfieiDK1emamB0NExpdFSI+r17booE7ZYTvVeI/TbRd9IuaGzk9qN/tFAhO90JSxBJjO/r6mpONKDgjSX30UOHUtF//87w7QrHfSBWU/OHMTKi8WLEFS0vN0ml7bLyw6WlZhMyxscN/caNnc7sv3u3DAsxmYLQmjVm25Xk/QI9Mv+FhSzR1ma6EPd4jsyIXDt+fDWs5+Q0eHoESb+IWBK/EH+XAjqAlrw8plVVpUQgAP3q1a0Zd0Ds428YrwwuMJ9CLklfKOTPBTnBJ0Q0QQTNDp6OkREjo44I0pPUfMiBLkHQYwMrcacACXgCAc1A8u1b3sjiXu+16UcfCAQpetr7HYLICpXYpxBLtANeCAgWFfE0YqbQrpg3pQCQrjXGxngByYV9NoSTEbcrDjSSC4EAMyYmmHb06LbpbLtKsoxyT8XUqVhrRYcNORG3CDwC7lNBnjrFeD3V1rrgwtzJ7J+Lw2UDCaD9ThF02BCli/iJQtwsQALCGzZwAeiQbZO2Zur9idbWLhpA4e3beSW3KyRWSFKVWJI3CZCA0Pr1UsAzcBROKgAOtJIDVICNCoEVLRarrcRekf//FixICUBQaEpTCpiDfl9DAlALzKMsng7NNsSSnL6/AwHRgwf5VkRDq5tyOoaKi7fQliHIxZrToMkmYknsEfb/CwF0nqSeEtm/v3zK6YgX8vHBBCnWTp/mFnpsyLyWaFViwv/4zg2AlEef9PupD/wyrWaEobObPuCpuHCBR0tCaNEHeJbwiPt9AXqHIq4F6Fk7dixFjj6A43plJrMgB3n7B6chfrQyvn5lMZeLhUpK+IH0uRg4Mg10p6ZEpySamHRuoBTKyPGD5RrWzM10IOXgxFOGrTMkOxmfDySIgE5Jk46DnukMSCdh8Q4dSjGWvwSXLSvPmNwiZDGm3o7Inj01qOJu/PgcTfT2hnA+0DFoknApiec4fi1H8L9v6HZ90QMHrsCpP/Htr46PZIqQbNTDZoio0N3us4AL7fo6CK/j7tJv3ToPVMYuXy6tys2dN911fwDtRqIJslFnLQAAAABJRU5ErkJggg=="
                                                                                             class="stausImg mCS_img_loaded"
-                                                                                            alt="Unpaid"
-                                                                                            title="Unpaid"></td>
+                                                                                            alt="Unpaid" title="Unpaid">
+                                                                                    </td>
                                                                                     <td data-label="ID">WG6212793
                                                                                     </td>
                                                                                     <td data-label="Name">SHABODDIN
@@ -981,8 +970,8 @@ padding-left: 10px;">
                                                                                     <td data-label="Status"><img
                                                                                             src="data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEsUlEQVR42rVXXUhUWxS2tCRN4/ZwC6KkuhWXXkS4QfWS9RBEEpciIiJ86OFCSUb0EIQ3ulAkSUTNQ1RUg3XDyyVzkDEpTRMbTE37syFGQyoLTcL5O3Nm5uy+tWfvw+ZwRh2PHfg4Bz1nf9/61tpr7cnKmsEVr6v7PdnX93dyaKgeaEi+fn0u3tBQkvWzr/jDh1tYJDLG0l26Hk48fbr7p5AnurvPMsNIEeGu37zJohUVLHr4MItdvMggzNSRfPfu9uySP378lySPXbrEhhcuZO8BPzAAvMrPZ29w106cMEUkfL7qWSHHwgUm+Zkz7AOIPgIkgp4HhRgS0AMhkb17TZfw/rrZsN7NbX35kn0GyZeCAn63CvALEV0QEa+vl6lodURenJ09x/j06SMtFtm1yxSgOhCwCCAXgsuXp0wIhaJYI8eJgDyWSHA7xwXxZyUFg4qAASGA6oFE8KLEd+FNm1bNWEBw6dIiLgCLDQvS4TT2SwH9IKc0oD9wAZF9+zY6cWAR0zRGIsj6QUH8IU30UgA5APv5d3j3NycC5qOQUjVQVsYjlcQBm+hfieiDK1emamB0NExpdFSI+r17booE7ZYTvVeI/TbRd9IuaGzk9qN/tFAhO90JSxBJjO/r6mpONKDgjSX30UOHUtF//87w7QrHfSBWU/OHMTKi8WLEFS0vN0ml7bLyw6WlZhMyxscN/caNnc7sv3u3DAsxmYLQmjVm25Xk/QI9Mv+FhSzR1ma6EPd4jsyIXDt+fDWs5+Q0eHoESb+IWBK/EH+XAjqAlrw8plVVpUQgAP3q1a0Zd0Ds428YrwwuMJ9CLklfKOTPBTnBJ0Q0QQTNDp6OkREjo44I0pPUfMiBLkHQYwMrcacACXgCAc1A8u1b3sjiXu+16UcfCAQpetr7HYLICpXYpxBLtANeCAgWFfE0YqbQrpg3pQCQrjXGxngByYV9NoSTEbcrDjSSC4EAMyYmmHb06LbpbLtKsoxyT8XUqVhrRYcNORG3CDwC7lNBnjrFeD3V1rrgwtzJ7J+Lw2UDCaD9ThF02BCli/iJQtwsQALCGzZwAeiQbZO2Zur9idbWLhpA4e3beSW3KyRWSFKVWJI3CZCA0Pr1UsAzcBROKgAOtJIDVICNCoEVLRarrcRekf//FixICUBQaEpTCpiDfl9DAlALzKMsng7NNsSSnL6/AwHRgwf5VkRDq5tyOoaKi7fQliHIxZrToMkmYknsEfb/CwF0nqSeEtm/v3zK6YgX8vHBBCnWTp/mFnpsyLyWaFViwv/4zg2AlEef9PupD/wyrWaEobObPuCpuHCBR0tCaNEHeJbwiPt9AXqHIq4F6Fk7dixFjj6A43plJrMgB3n7B6chfrQyvn5lMZeLhUpK+IH0uRg4Mg10p6ZEpySamHRuoBTKyPGD5RrWzM10IOXgxFOGrTMkOxmfDySIgE5Jk46DnukMSCdh8Q4dSjGWvwSXLSvPmNwiZDGm3o7Inj01qOJu/PgcTfT2hnA+0DFoknApiec4fi1H8L9v6HZ90QMHrsCpP/Htr46PZIqQbNTDZoio0N3us4AL7fo6CK/j7tJv3ToPVMYuXy6tys2dN911fwDtRqIJslFnLQAAAABJRU5ErkJggg=="
                                                                                             class="stausImg mCS_img_loaded"
-                                                                                            alt="Unpaid"
-                                                                                            title="Unpaid"></td>
+                                                                                            alt="Unpaid" title="Unpaid">
+                                                                                    </td>
                                                                                     <td data-label="ID">WG8642966
                                                                                     </td>
                                                                                     <td data-label="Name">HANUMANT
@@ -1023,8 +1012,8 @@ padding-left: 10px;">
                                                                                     <td data-label="Status"><img
                                                                                             src="data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEsUlEQVR42rVXXUhUWxS2tCRN4/ZwC6KkuhWXXkS4QfWS9RBEEpciIiJ86OFCSUb0EIQ3ulAkSUTNQ1RUg3XDyyVzkDEpTRMbTE37syFGQyoLTcL5O3Nm5uy+tWfvw+ZwRh2PHfg4Bz1nf9/61tpr7cnKmsEVr6v7PdnX93dyaKgeaEi+fn0u3tBQkvWzr/jDh1tYJDLG0l26Hk48fbr7p5AnurvPMsNIEeGu37zJohUVLHr4MItdvMggzNSRfPfu9uySP378lySPXbrEhhcuZO8BPzAAvMrPZ29w106cMEUkfL7qWSHHwgUm+Zkz7AOIPgIkgp4HhRgS0AMhkb17TZfw/rrZsN7NbX35kn0GyZeCAn63CvALEV0QEa+vl6lodURenJ09x/j06SMtFtm1yxSgOhCwCCAXgsuXp0wIhaJYI8eJgDyWSHA7xwXxZyUFg4qAASGA6oFE8KLEd+FNm1bNWEBw6dIiLgCLDQvS4TT2SwH9IKc0oD9wAZF9+zY6cWAR0zRGIsj6QUH8IU30UgA5APv5d3j3NycC5qOQUjVQVsYjlcQBm+hfieiDK1emamB0NExpdFSI+r17booE7ZYTvVeI/TbRd9IuaGzk9qN/tFAhO90JSxBJjO/r6mpONKDgjSX30UOHUtF//87w7QrHfSBWU/OHMTKi8WLEFS0vN0ml7bLyw6WlZhMyxscN/caNnc7sv3u3DAsxmYLQmjVm25Xk/QI9Mv+FhSzR1ma6EPd4jsyIXDt+fDWs5+Q0eHoESb+IWBK/EH+XAjqAlrw8plVVpUQgAP3q1a0Zd0Ds428YrwwuMJ9CLklfKOTPBTnBJ0Q0QQTNDp6OkREjo44I0pPUfMiBLkHQYwMrcacACXgCAc1A8u1b3sjiXu+16UcfCAQpetr7HYLICpXYpxBLtANeCAgWFfE0YqbQrpg3pQCQrjXGxngByYV9NoSTEbcrDjSSC4EAMyYmmHb06LbpbLtKsoxyT8XUqVhrRYcNORG3CDwC7lNBnjrFeD3V1rrgwtzJ7J+Lw2UDCaD9ThF02BCli/iJQtwsQALCGzZwAeiQbZO2Zur9idbWLhpA4e3beSW3KyRWSFKVWJI3CZCA0Pr1UsAzcBROKgAOtJIDVICNCoEVLRarrcRekf//FixICUBQaEpTCpiDfl9DAlALzKMsng7NNsSSnL6/AwHRgwf5VkRDq5tyOoaKi7fQliHIxZrToMkmYknsEfb/CwF0nqSeEtm/v3zK6YgX8vHBBCnWTp/mFnpsyLyWaFViwv/4zg2AlEef9PupD/wyrWaEobObPuCpuHCBR0tCaNEHeJbwiPt9AXqHIq4F6Fk7dixFjj6A43plJrMgB3n7B6chfrQyvn5lMZeLhUpK+IH0uRg4Mg10p6ZEpySamHRuoBTKyPGD5RrWzM10IOXgxFOGrTMkOxmfDySIgE5Jk46DnukMSCdh8Q4dSjGWvwSXLSvPmNwiZDGm3o7Inj01qOJu/PgcTfT2hnA+0DFoknApiec4fi1H8L9v6HZ90QMHrsCpP/Htr46PZIqQbNTDZoio0N3us4AL7fo6CK/j7tJv3ToPVMYuXy6tys2dN911fwDtRqIJslFnLQAAAABJRU5ErkJggg=="
                                                                                             class="stausImg mCS_img_loaded"
-                                                                                            alt="Unpaid"
-                                                                                            title="Unpaid"></td>
+                                                                                            alt="Unpaid" title="Unpaid">
+                                                                                    </td>
                                                                                     <td data-label="ID">WG8439697
                                                                                     </td>
                                                                                     <td data-label="Name">Firoz
@@ -1042,10 +1031,8 @@ padding-left: 10px;">
                                                         </div>
                                                         <div id="mCSB_5_scrollbar_vertical"
                                                             class="mCSB_scrollTools mCSB_5_scrollbar mCS-light-1 mCSB_scrollTools_vertical">
-                                                            <div class="mCSB_draggerContainer"
-                                                                style="display: none;">
-                                                                <div id="mCSB_5_dragger_vertical"
-                                                                    class="mCSB_dragger"
+                                                            <div class="mCSB_draggerContainer" style="display: none;">
+                                                                <div id="mCSB_5_dragger_vertical" class="mCSB_dragger"
                                                                     style="position: absolute; min-height: 30px; display: block; height: 66px; max-height: 305px; top: 0px;">
                                                                     <div class="mCSB_dragger_bar"
                                                                         style="line-height: 30px;"></div>
@@ -1438,11 +1425,9 @@ padding-left: 10px;">
                                                                                         <td
                                                                                             data-label="Confirm Right Count">
                                                                                             0 </td>
-                                                                                        <td
-                                                                                            data-label="Total Left PV">
+                                                                                        <td data-label="Total Left PV">
                                                                                             0.00 </td>
-                                                                                        <td
-                                                                                            data-label="Total Right PV">
+                                                                                        <td data-label="Total Right PV">
                                                                                             0.00 </td>
                                                                                         <td
                                                                                             data-label="Confirm Left PV">
@@ -1452,8 +1437,7 @@ padding-left: 10px;">
                                                                                             0.00 </td>
                                                                                         <td data-label="Own PV">
                                                                                             0.00 </td>
-                                                                                        <td
-                                                                                            data-label="Confirm Own PV">
+                                                                                        <td data-label="Confirm Own PV">
                                                                                             0.00 </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -1526,11 +1510,9 @@ padding-left: 10px;">
                                                                                         <td
                                                                                             data-label="Confirm Right Count">
                                                                                             2 </td>
-                                                                                        <td
-                                                                                            data-label="Total Left PV">
+                                                                                        <td data-label="Total Left PV">
                                                                                             400.00 </td>
-                                                                                        <td
-                                                                                            data-label="Total Right PV">
+                                                                                        <td data-label="Total Right PV">
                                                                                             200.00 </td>
                                                                                         <td
                                                                                             data-label="Confirm Left PV">
@@ -1540,8 +1522,7 @@ padding-left: 10px;">
                                                                                             200.00 </td>
                                                                                         <td data-label="Own PV">
                                                                                             100.00 </td>
-                                                                                        <td
-                                                                                            data-label="Confirm Own PV">
+                                                                                        <td data-label="Confirm Own PV">
                                                                                             100.00 </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -1619,8 +1600,7 @@ padding-left: 10px;">
                                                                                 </thead>
                                                                                 <tbody>
                                                                                     <tr>
-                                                                                        <td
-                                                                                            data-label="Downline Count">
+                                                                                        <td data-label="Downline Count">
                                                                                             0 </td>
                                                                                         <td
                                                                                             data-label="Confirm Downline Count">
@@ -1661,8 +1641,7 @@ padding-left: 10px;">
                                                                                 </thead>
                                                                                 <tbody>
                                                                                     <tr>
-                                                                                        <td
-                                                                                            data-label="Downline Count">
+                                                                                        <td data-label="Downline Count">
                                                                                             8 </td>
                                                                                         <td
                                                                                             data-label="Confirm Downline Count">
@@ -1738,486 +1717,6 @@ padding-left: 10px;">
             </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
                 <!-- Data table area End-->
             </a>
-        </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
-        </a>
-    </div><a class="" href="/Achivement/RankQualifiersReport" title="CurrentRank">
-        <!-- Footer Start-->
-        <div class="footer-copyright-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-
-
-
-
-
-
-                        <script language="javascript">
-                            var footerEnabled = 'False';
-                            var fIntervalBetweenImages_millis = '1000';
-                            var footerRepeat = 'True';
-                            var fdelay_millis = '10000';
-                            var footerOnPageLoad = 'True';
-                            var footerAutoClose = 'False';
-                            var fdelay_close = '0';
-
-
-                            $(document).ready(function () {
-                                $("#footerBanner").hide();
-
-                                $('.closeButton').on('click', function (e) {
-                                    $(this).closest('div').hide();
-                                });
-
-
-                                //footer
-                                if (footerEnabled != 'False') {
-                                    if (footerRepeat != 'False') {
-                                        setInterval(function () {
-                                            fadvertise();
-                                        }, fdelay_millis);
-                                    }
-                                    if (footerOnPageLoad != 'False') {
-                                        fadvertise();
-                                    }
-                                }
-
-                            });
-
-                            function fadClose() {
-                                $("#footerBanner").hide();
-                            }
-
-                            function fadvertise() {
-                                $("#footerBanner").show();
-                                //AutoClose
-                                if (footerAutoClose != 'False') {
-                                    setTimeout(function () {
-                                        fadClose();
-                                    }, fdelay_close);
-                                }
-                            }
-
-                        </script>
-
-                        <style>
-                            .closeButton {
-                                float: right;
-                                font-size: x-small;
-                            }
-
-                            .footerDiv {
-                                text-align: center;
-                            }
-                        </style>
-                        <script type="text/javascript">
-                            var imageid = 1;
-                            $(document).ready(function () {
-                                $('#img1').show();
-                                $('#img2').hide();
-                                $('#img3').hide();
-                                $('#img4').hide();
-                                $('#img5').hide();
-
-                                setInterval(function () {
-                                    setimage();
-                                }, fIntervalBetweenImages_millis)
-                            });
-                            function setimage() {
-                                $('#img1').hide();
-                                $('#img2').hide();
-                                $('#img3').hide();
-                                $('#img4').hide();
-                                $('#img5').hide();
-                                switch (imageid) {
-                                    case (1): {
-                                        $('#img1').show();
-                                        imageid++;
-                                        break;
-                                    }
-                                    case (2): {
-                                        $('#img2').show();
-                                        imageid++;
-                                        break;
-                                    }
-                                    case (3): {
-                                        $('#img3').show();
-                                        imageid++;
-                                        break;
-                                    }
-                                    case (4): {
-                                        $('#img4').show();
-                                        imageid++;
-                                        break;
-                                    }
-                                    case (5): {
-                                        $('#img5').show();
-                                        imageid = 1;
-                                        break;
-                                    }
-                                }
-                            }
-                        </script>
-
-
-
-
-                        <style>
-                            .materialdesign .footer-copy-right a {
-                                color: #1234e1;
-                            }
-                        </style>
-
-
-
-
-
-                        <div class="footer">
-                            <div class="footer-copy-right">
-                                <div class="footer-bottom">
-                                    <div class="footer-centering">
-                                        <div class="accepted-payment-methods">
-                                            <ul>
-                                                <li class="method1"></li>
-                                                <li class="method2"></li>
-                                                <li class="method3"></li>
-                                                <li class="method4"></li>
-
-                                            </ul>
-                                        </div>
-
-                                        <div class="footer-disclaimer">
-
-
-
-                                            Copyright © 2020 WealthGenics Pvt. Ltd.. All rights reserved Powered by
-                                            WealthGenics
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/vendor/jquery-1.11.3.min.js"></script>
-
-        <script src="/Scripts/public.ajaxcart.js"></script>
-
-        <script src="/Scripts/public.common.js"></script>
-
-        <script src="/Scripts/jquery-migrate-1.2.1.min.js"></script>
-
-        <script src="/Scripts/jquery-ui-1.10.3.custom.min.js"></script>
-
-        <!-- bootstrap JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/bootstrap.min.js"></script>
-
-        <!-- meanmenu JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/jquery.meanmenu.js"></script>
-
-        <!-- mCustomScrollbar JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/jquery.mCustomScrollbar.concat.min.js"></script>
-
-        <!-- sticky JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/jquery.sticky.js"></script>
-
-        <!-- scrollUp JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/jquery.scrollUp.min.js"></script>
-
-        <!-- counterup JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/counterup/jquery.counterup.min.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/counterup/waypoints.min.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/counterup/counterup-active.js"></script>
-
-        <!-- peity JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/peity/jquery.peity.min.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/peity/peity-active.js"></script>
-
-        <!-- sparkline JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/sparkline/jquery.sparkline.min.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/sparkline/sparkline-active.js"></script>
-        <!-- flot JS
-    ============================================ -->
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/flot/Chart.min.js"></script>
-        <script src="/Scripts/canvasjs.min.js"></script>
-
-        <!-- map JS
-    ============================================ -->
-        <script src="/Themes/Vnext/Content/VnextJs/js/map/raphael.min.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/map/jquery.mapael.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/map/france_departments.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/map/world_countries.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/map/usa_states.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/map/map-active.js"></script>
-
-        <!-- data table JS
-    ============================================ -->
-
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/DataTable/jquery.dataTables.js"></script>
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/DataTable/dataTables.responsive.min.js"></script>
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/DataTable/dataTables.tableTools.js"></script>
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/datapicker/bootstrap-datepicker.js"></script>
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/datapicker/datepicker-active.js"></script>
-
-        <script src="/Themes/Vnext/Content/VnextJs/js/main.js"></script>
-        <script src="/Themes/Vnext/Content/VnextJs/js/VnextCharts.js"></script>
-
-
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('.loader').hide();
-            });
-
-            function getDateFromString(date, format) {
-                var myDate;
-                if ("dd/mm/yy" == "dd/mm/yy") {
-                    var str = date;
-                    var res = str.split("/");
-                    var date = res[0];
-                    var month = res[1];
-                    var year = res[2];
-                    myDate = month + '/' + date + '/' + year
-                }
-                else {
-                    myDate = date;
-                }
-
-                return myDate;
-            }
-
-            // ex . panelHeader="sparkline13-hd",panelGraph="sparkline13-graph"
-            function fieldPanelValidation(fieldValue, panelHeader, panelGraph, flag) {
-                if (flag != 1) {
-                    $(fieldValue).css('border-color', '#f44336');
-                    $(panelHeader).css('background-color', '#f44336 !important');
-                }
-                $(panelGraph).css("display", "none");
-                $("#dvPanel").removeClass("fa fa-chevron-down");
-                $("#dvPanel").addClass("fa fa-chevron-up");
-
-            }
-
-            function ResetPanelValidation(fieldValue, panelHeader, panelGraph, flag) {
-                if (flag != 1) {
-                    $(fieldValue).css('border-color', '#e5e6e7');
-                    $(panelHeader).removeAttr("style");
-                }
-                $(panelGraph).css("display", "none");
-                $("#dvPanel").removeClass("fa fa-chevron-down");
-                $("#dvPanel").addClass("fa fa-chevron-up");
-
-            }
-
-        </script>
-
-
-
-        <script>
-            $(document).ready(
-
-                $.ajax(
-                    {
-                        type: 'POST',
-                        url: "/VFDashboard/HighlightsData",
-                        cache: false,
-                        async: true,
-                        success: function (response) {
-                            debugger;
-                            $("#TotalRepurchase").html(response.TotalRepurchase);
-
-                            //get E-WalletBalance Value then split and  applited counter
-                            if (response.EWalletBalance != null || response.EWalletBalance != 0) {
-                                var EwalletString = response.EWalletBalance.split(' ');
-                                var CheckActualValue = parseFloat(EwalletString[1]);
-
-                                if (EwalletString[1] == undefined) {
-                                    $("#EWalletBalance").html('<span>' + EwalletString[0] + '</span>');
-                                }
-                                else {
-                                    if (!isNaN(CheckActualValue)) {
-                                        $("#EWalletBalance").html('<span>' + EwalletString[0] + '</span><span id="Walletcounter">' + EwalletString[1] + '</span>');
-                                    }
-                                    else {
-                                        $("#EWalletBalance").html('<span>' + EwalletString[1] + '</span><span id="Walletcounter">' + EwalletString[0] + '</span>');
-                                    }
-
-                                }
-
-
-                                $('#Walletcounter').counterUp({
-                                    delay: 100,
-                                    time: 1200
-                                });
-                            }
-
-                            //get CreditNoteWalletBalance Value then split and  applited counter
-                            if (response.CreditNoteWalletBalance != null || response.CreditNoteWalletBalance != 0) {
-                                var CreditNoteEwalletString = response.CreditNoteWalletBalance.split(' ');
-                                var CheckActualValue = parseFloat(CreditNoteEwalletString[1]);
-
-                                if (CreditNoteEwalletString[1] == undefined) {
-                                    $("#CreditNoteWalletBalance").html('<span>' + CreditNoteEwalletString[0] + '</span>');
-                                }
-                                else {
-                                    if (!isNaN(CheckActualValue)) {
-                                        $("#CreditNoteWalletBalance").html('<span>' + CreditNoteEwalletString[0] + '</span><span id="CreditNoteWalletcounter">' + CreditNoteEwalletString[1] + '</span>');
-                                    }
-                                    else {
-                                        $("#CreditNoteWalletBalance").html('<span>' + CreditNoteEwalletString[1] + '</span><span id="CreditNoteWalletcounter">' + CreditNoteEwalletString[0] + '</span>');
-                                    }
-                                }
-                                $('#CreditNoteWalletcounter').counterUp({
-                                    delay: 100,
-                                    time: 1200
-                                });
-                            }
-
-                            //get IncomeReceived Value then split and  applited counter
-                            if (response.IncomeReceived != null || response.IncomeReceived != 0) {
-
-                                var IncomeReceivedString = response.IncomeReceived.split(' ');
-                                var CheckActualValue = parseFloat(CreditNoteEwalletString[1]);
-                                if (IncomeReceivedString[1] == undefined) {
-                                    $("#IncomeReceived").html('<span>' + IncomeReceivedString[0] + '</span>');
-                                }
-                                else {
-                                    if (!isNaN(CheckActualValue)) {
-                                        $("#IncomeReceived").html('<span>' + IncomeReceivedString[0] + '</span><span id="IncomeReceivedcounter">' + IncomeReceivedString[1] + '</span>');
-                                    }
-                                    else {
-                                        $("#IncomeReceived").html('<span>' + IncomeReceivedString[1] + '</span><span id="IncomeReceivedcounter">' + IncomeReceivedString[0] + '</span>');
-                                    }
-                                }
-                                $('#IncomeReceivedcounter').counterUp({
-                                    delay: 100,
-                                    time: 1200
-                                });
-                            }
-
-                            //get Epin Value And applited counter
-                            $("#EPinsReceived").html(response.EPinsReceived);
-                            $('#EPinsReceived').counterUp({
-                                delay: 100,
-                                time: 1200
-                            });
-
-                            $("#LastSignInOn").html(response.LastSignInOn);
-                            $("#LastSignInIP").html(response.LastSignInIP);
-                            $("#RenewalDate").html(response.RenewalDate);
-                            $("#RenewalExpDate").html(response.RenewalExpDate);
-                            //get MyPayouts Value And applited counter
-                            $("#MyPayouts").html(response.MyPayouts);
-                            $('#MyPayouts').counterUp({
-                                delay: 100,
-                                time: 1200
-                            });
-
-                            //get DownlineCount Value And applited counter
-                            $("#DownlineCount").html(response.DownlineCount);
-                            $('#DownlineCount').counterUp({
-                                delay: 100,
-                                time: 1200
-                            });
-
-                            $("#MystatusImagepath").attr("src", response.MystatusImagepath);
-
-                            $("#MystatusName").html(response.MystatusName);
-                            $("#KycDocumentStatus").html(response.KycDocumentStatus);
-
-                            $(".PancardStatus").html(response.PancardStatus);
-
-                            $("#RenewalExpDate").html(response.RenewalExpDate);
-
-                            $("#TrainingDate").html(response.TrainingDate);
-                            $("#RewardDate").html(response.RewardDate);
-                            $("#CurrentRank").html(response.CurrentRank);
-                            //if (response.PancardNo != '- ') {
-                            //    var pancard = " : " +response.PancardNo;
-                            //    $("#PancardStatus").text(response.PancardStatus + pancard);
-                            //}
-                            //else {
-                            //    $("#PancardStatus").text(response.PancardStatus);
-                            //}
-                        }
-                    }));
-            $(document).ready(function () {
-
-                if ('1' == 0) {
-                    $("#myModal").show();
-                    $("#para").append('');
-                }
-                else {
-                    $("#myModal").hide();
-                }
-                var modal = document.getElementById("myModal");
-                // Get the button that opens the modal
-                var btn = document.getElementById("myBtn");
-                // Get the <span> element that closes the modal
-                var span = document.getElementsByClassName("close")[0];
-                // When the user clicks on <span> (x), close the modal
-                span.onclick = function () {
-                    modal.style.display = "none";
-                }
-                // When the user clicks anywhere outside of the modal, close it
-                window.onclick = function (event) {
-                    if (event.target == modal) {
-                        modal.style.display = "none";
-                    }
-                }
-            });
-
-            $(document).ready(function () {
-
-                if ('1' == 1) {
-                    $("#myModal").show();
-                    $("#para").append('');
-
-                }
-                else {
-
-
-                    $("#myModal").hide();
-                }
-                var modal = document.getElementById("myModal");
-
-                // Get the button that opens the modal
-                var btn = document.getElementById("myBtn");
-
-                // Get the <span> element that closes the modal
-                var span = document.getElementsByClassName("close")[0];
-                // When the user clicks on <span> (x), close the modal
-                span.onclick = function () {
-                    modal.style.display = "none";
-                }
-
-                // When the user clicks anywhere outside of the modal, close it
-                window.onclick = function (event) {
-                    if (event.target == modal) {
-                        modal.style.display = "none";
-                    }
-                }
-            });
-        </script>
-
-    </a>
+    </div>
 </div>
-</body>
