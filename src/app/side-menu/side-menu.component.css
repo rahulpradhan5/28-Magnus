@@ -9,9 +9,28 @@
   padding: 0px 0px 0px 8px;
 }
 
-.back {
-  background-color: #000;
+/* a:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+  transition: all 0.2s ease-in-out;
+} */
+
+
+a:hover,
+a:focus {
+
+  background-color: #000 !important;
+  font-weight: 700;
 }
+
+
+li:hover,
+li:focus {
+
+  background-color: gray !important;
+  font-weight: 700;
+}
+
 
 .side-menu ul {
   list-style-type: none;
@@ -44,6 +63,7 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  /* right: 21500px; */
   background-color: #000;
   /* color: white; */
   font-weight: 600;
@@ -62,19 +82,14 @@
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
-  /* border: solid #fff; */
+  border: solid #e0e0e0;
   border-width: 0 2px 2px 0;
   padding: 3px;
   transition: transform 0.2s ease-in-out;
-  font-weight: 600;
-  /* color: #ffff; */
-  /* background-color: #000; */
-
 }
 
 .dropdown:hover a:after {
   transform: translateY(-50%) rotate(45deg);
-
 }
 
 .menus:hover {
@@ -4078,20 +4093,20 @@ fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-color: #ccc;
 }
 
 .btn-default.focus,
 .btn-default:focus {
   color: #333;
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
   border-color: #8c8c8c;
 }
 
 .btn-default:hover {
   color: #333;
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
   border-color: #adadad;
 }
 
