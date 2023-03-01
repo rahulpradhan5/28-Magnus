@@ -171,9 +171,12 @@ li:focus {
 
 
 
-
-
-/* ///kharab :horizontal */
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
   /* font-family: 'Mukta Mahee', sans-serif;!important;*/
@@ -4093,20 +4096,20 @@ fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  /* background-color: #fff; */
+  background-color: #fff;
   border-color: #ccc;
 }
 
 .btn-default.focus,
 .btn-default:focus {
   color: #333;
-  /* background-color: #e6e6e6; */
+  background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
 
 .btn-default:hover {
   color: #333;
-  /* background-color: #e6e6e6; */
+  background-color: #e6e6e6;
   border-color: #adadad;
 }
 
@@ -4622,7 +4625,7 @@ tbody.collapse.in {
   outline: 0;
 }
 
-/* .dropdown-menu {
+.dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -4643,7 +4646,7 @@ tbody.collapse.in {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-} */
+}
 
 .dropdown-menu.pull-right {
   right: 0;
@@ -4664,24 +4667,24 @@ tbody.collapse.in {
   font-weight: 400;
   line-height: 1.42857143;
   color: #333;
-
+  /*  white-space: nowrap;*/
 }
 
-/* .dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
   color: #262626;
   text-decoration: none;
   background-color: #f5f5f5;
-} */
+}
 
-/* .dropdown-menu>.active>a,
+.dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
   color: #fff;
   text-decoration: none;
   background-color: #337ab7;
   outline: 0;
-} */
+}
 
 .dropdown-menu>.disabled>a,
 .dropdown-menu>.disabled>a:focus,

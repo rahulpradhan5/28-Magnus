@@ -60,6 +60,8 @@ import { CustomerKYCDocumentComponent } from './customer-kycdocument/customer-ky
 import { CustomerInvoicesComponent } from './customer-invoices/customer-invoices.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
 import { CustomerinfoComponent } from './customerinfo/customerinfo.component';
+import { SponsorRegisterComponent } from './sponsor-register/sponsor-register.component';
+
 
 
 const routes: Routes = [
@@ -148,7 +150,10 @@ const routes: Routes = [
   { path: 'CustomerInvoices', component: CustomerInvoicesComponent },
   { path: 'OrderHistory', component: OrderHistoryComponent },
   { path: 'CustomerInvoices', component: CustomerInvoicesComponent },
-  { path: 'Customerinfo', component: CustomerinfoComponent }
+  { path: 'Customerinfo', component: CustomerinfoComponent },
+  { path: 'SponsorRegister', component: SponsorRegisterComponent }
+
+
 
 
 

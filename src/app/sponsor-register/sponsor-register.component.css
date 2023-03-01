@@ -1,30 +1,9 @@
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+   * Bootstrap v3.3.6 (http://getbootstrap.com)
+   * Copyright 2011-2015 Twitter, Inc.
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+   */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
-.container {
-    max-width: 1260px !important;
-    margin: 0 auto;
-}
-
-/* .grid {
-    display: grid;
-    grid-template-columns: fit-content(100%);
-    grid-gap: .7rem;
-} */
-
-
-
-/* 
-.content-inner-all {
-    display: block;
-    grid-template-columns: fit-content(100%);
-
-} */
-
 
 html {
     /* font-family: 'Mukta Mahee', sans-serif;!important;*/
@@ -11250,12 +11229,12 @@ a.meanmenu-reveal {
 @charset "UTF-8";
 
 /*!
-Animate.css - http://daneden.me/animate
-Version - 3.4.0
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
-*/
+  Animate.css - http://daneden.me/animate
+  Version - 3.4.0
+  Licensed under the MIT license - http://opensource.org/licenses/MIT
+  
+  Copyright (c) 2015 Daniel Eden
+  */
 
 .animated {
     -webkit-animation-duration: 1s;
@@ -14640,8 +14619,8 @@ Copyright (c) 2015 Daniel Eden
 }
 
 /*
- * Table styles
- */
+  * Table styles
+  */
 table.dataTable {
     width: 100%;
     margin: 0 auto;
@@ -14702,23 +14681,23 @@ table.dataTable thead .sorting_desc_disabled {
 
 /* table.dataTable thead .sorting {
     background-image: url("../images/sort_both.png");
-}
-
-table.dataTable thead .sorting_asc {
+  }
+  
+  table.dataTable thead .sorting_asc {
     background-image: url("../images/sort_asc.png");
-}
-
-table.dataTable thead .sorting_desc {
+  }
+  
+  table.dataTable thead .sorting_desc {
     background-image: url("../images/sort_desc.png");
-}
-
-table.dataTable thead .sorting_asc_disabled {
+  }
+  
+  table.dataTable thead .sorting_asc_disabled {
     background-image: url("../images/sort_asc_disabled.png");
-}
-
-table.dataTable thead .sorting_desc_disabled {
+  }
+  
+  table.dataTable thead .sorting_desc_disabled {
     background-image: url("../images/sort_desc_disabled.png");
-} */
+  } */
 
 table.dataTable tbody tr {
     background-color: #ffffff;
@@ -15010,8 +14989,8 @@ table.dataTable td {
 }
 
 /*
- * Control feature layout
- */
+  * Control feature layout
+  */
 .dataTables_wrapper {
     position: relative;
     clear: both;
@@ -15281,33 +15260,33 @@ table.dataTable td {
 }
 
 /*
- * File:        TableTools.css
- * Description: Styles for TableTools 2
- * Author:      Allan Jardine (www.sprymedia.co.uk)
- * Language:    Javascript
- * License:     GPL v2 / 3 point BSD
- * Project:     DataTables
- * 
- * Copyright 2009-2012 Allan Jardine, all rights reserved.
- *
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- *
- * CSS name space:
- *   DTTT                  DataTables TableTools
- *
- * Style sheet provides:
- *   CONTAINER             TableTools container element and styles applying to all components
- *   BUTTON_STYLES         Action specific button styles
- *   SELECTING             Row selection styles
- *   COLLECTIONS           Drop down list (collection) styles
- *   PRINTING              Print display styles
- */
+  * File:        TableTools.css
+  * Description: Styles for TableTools 2
+  * Author:      Allan Jardine (www.sprymedia.co.uk)
+  * Language:    Javascript
+  * License:     GPL v2 / 3 point BSD
+  * Project:     DataTables
+  * 
+  * Copyright 2009-2012 Allan Jardine, all rights reserved.
+  *
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  *
+  * CSS name space:
+  *   DTTT                  DataTables TableTools
+  *
+  * Style sheet provides:
+  *   CONTAINER             TableTools container element and styles applying to all components
+  *   BUTTON_STYLES         Action specific button styles
+  *   SELECTING             Row selection styles
+  *   COLLECTIONS           Drop down list (collection) styles
+  *   PRINTING              Print display styles
+  */
 
 
 /*
- * CONTAINER
- * TableTools container element and styles applying to all components
- */
+  * CONTAINER
+  * TableTools container element and styles applying to all components
+  */
 div.DTTT_container {
     position: relative;
     float: right;
@@ -15460,46 +15439,46 @@ a.DTTT_disabled {
 
 
 /*
- * BUTTON_STYLES
- * Action specific button styles
- * If you want images - comment this back in
-
-a.DTTT_button_csv,
-a.DTTT_button_xls,
-a.DTTT_button_copy,
-a.DTTT_button_pdf,
-a.DTTT_button_print {
-	padding-right: 0px;
-}
-
-a.DTTT_button_csv span,
-a.DTTT_button_xls span,
-a.DTTT_button_copy span,
-a.DTTT_button_pdf span,
-a.DTTT_button_print span {
-	display: inline-block;
-	height: 24px;
-	line-height: 24px;
-	padding-right: 30px;
-}
-
-
-a.DTTT_button_csv span { background: url(../images/csv.png) no-repeat bottom right; }
-a.DTTT_button_csv:hover span { background: url(../images/csv_hover.png) no-repeat center right; }
-
-a.DTTT_button_xls span { background: url(../images/xls.png) no-repeat center right; }
-a.DTTT_button_xls:hover span { background: #f0f0f0 url(../images/xls_hover.png) no-repeat center right; }
-
-a.DTTT_button_copy span { background: url(../images/copy.png) no-repeat center right; }
-a.DTTT_button_copy:hover span { background: #f0f0f0 url(../images/copy_hover.png) no-repeat center right; }
-
-a.DTTT_button_pdf span { background: url(../images/pdf.png) no-repeat center right; }
-a.DTTT_button_pdf:hover span { background: #f0f0f0 url(../images/pdf_hover.png) no-repeat center right; }
-
-a.DTTT_button_print span { background: url(../images/print.png) no-repeat center right; }
-a.DTTT_button_print:hover span { background: #f0f0f0 url(../images/print_hover.png) no-repeat center right; }
-
- */
+  * BUTTON_STYLES
+  * Action specific button styles
+  * If you want images - comment this back in
+  
+  a.DTTT_button_csv,
+  a.DTTT_button_xls,
+  a.DTTT_button_copy,
+  a.DTTT_button_pdf,
+  a.DTTT_button_print {
+  padding-right: 0px;
+  }
+  
+  a.DTTT_button_csv span,
+  a.DTTT_button_xls span,
+  a.DTTT_button_copy span,
+  a.DTTT_button_pdf span,
+  a.DTTT_button_print span {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding-right: 30px;
+  }
+  
+  
+  a.DTTT_button_csv span { background: url(../images/csv.png) no-repeat bottom right; }
+  a.DTTT_button_csv:hover span { background: url(../images/csv_hover.png) no-repeat center right; }
+  
+  a.DTTT_button_xls span { background: url(../images/xls.png) no-repeat center right; }
+  a.DTTT_button_xls:hover span { background: #f0f0f0 url(../images/xls_hover.png) no-repeat center right; }
+  
+  a.DTTT_button_copy span { background: url(../images/copy.png) no-repeat center right; }
+  a.DTTT_button_copy:hover span { background: #f0f0f0 url(../images/copy_hover.png) no-repeat center right; }
+  
+  a.DTTT_button_pdf span { background: url(../images/pdf.png) no-repeat center right; }
+  a.DTTT_button_pdf:hover span { background: #f0f0f0 url(../images/pdf_hover.png) no-repeat center right; }
+  
+  a.DTTT_button_print span { background: url(../images/print.png) no-repeat center right; }
+  a.DTTT_button_print:hover span { background: #f0f0f0 url(../images/print_hover.png) no-repeat center right; }
+  
+  */
 
 button.DTTT_button_collection span {
     padding-right: 17px;
@@ -15513,9 +15492,9 @@ button.DTTT_button_collection:hover span {
 
 
 /*
- * SELECTING
- * Row selection styles
- */
+  * SELECTING
+  * Row selection styles
+  */
 table.DTTT_selectable tbody tr {
     cursor: pointer;
     *cursor: hand;
@@ -15556,9 +15535,9 @@ table.dataTable tr.DTTT_selected.even td.sorting_3 {
 
 
 /*
- * COLLECTIONS
- * Drop down list (collection) styles
- */
+  * COLLECTIONS
+  * Drop down list (collection) styles
+  */
 
 div.DTTT_collection {
     width: 150px;
@@ -15608,9 +15587,9 @@ div.DTTT_collection a.DTTT_button {
 
 
 /*
- * PRINTING
- * Print display styles
- */
+  * PRINTING
+  * Print display styles
+  */
 
 .DTTT_print_info {
     position: fixed;
@@ -15672,10 +15651,10 @@ div.DTTT_collection a.DTTT_button {
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
+  * 1. Set default font family to sans-serif.
+  * 2. Prevent iOS and IE text size adjust after device orientation change,
+  *    without disabling user zoom.
+  */
 
 html {
     font-family: sans-serif;
@@ -16303,7 +16282,7 @@ th {
 }
 
 /* Default
-=============================== */
+  =============================== */
 .wrapper {
     margin: 0 auto;
     outline: none;
@@ -16344,7 +16323,7 @@ th {
 }
 
 /* Reset for -webkit / -moz browser
-=============================== */
+  =============================== */
 .ts-forms input[type="search"]::-webkit-search-decoration,
 .ts-forms input[type="search"]::-webkit-search-cancel-button,
 .ts-forms input[type="search"]::-webkit-search-results-button,
@@ -16366,7 +16345,7 @@ th {
 }
 
 /* Header
-=============================== */
+  =============================== */
 .ts-forms .header {
     background-color: #ff0000;
     border-bottom: 5px solid #e00000;
@@ -16401,7 +16380,7 @@ th {
 }
 
 /* Content
-=============================== */
+  =============================== */
 .ts-forms .content {
     padding: 25px 25px 0;
 }
@@ -16415,7 +16394,7 @@ th {
 }
 
 /* Footer
-=============================== */
+  =============================== */
 .ts-forms .footer {
     background-color: #e8eaf6;
     -webkit-border-radius: 0 0 3px 3px;
@@ -16435,7 +16414,7 @@ th {
 }
 
 /* Dividers
-=============================== */
+  =============================== */
 .ts-forms .divider,
 .ts-forms .divider-text {
     border-top: 1px solid rgba(0, 0, 0, .12);
@@ -16462,7 +16441,7 @@ th {
 }
 
 /* Gap-top / gap-bottom classes
-=============================== */
+  =============================== */
 .ts-forms .gap-top-20 {
     margin-top: 20px;
 }
@@ -16488,7 +16467,7 @@ th {
 /* line-divider bottom gap */
 
 /* Labels
-=============================== */
+  =============================== */
 .ts-forms label {
     display: block;
     color: inherit;
@@ -16516,7 +16495,7 @@ th {
 }
 
 /* Radio and checkbox
-=============================== */
+  =============================== */
 .ts-forms .radio,
 .ts-forms .checkbox,
 .ts-forms .radio-toggle,
@@ -16728,7 +16707,7 @@ th {
 }
 
 /* Widget
-=============================== */
+  =============================== */
 .ts-forms .widget {
     position: relative;
 }
@@ -16840,7 +16819,7 @@ th {
 }
 
 /* Inputs
-=============================== */
+  =============================== */
 .ts-forms input[type="text"],
 .ts-forms input[type="password"],
 .ts-forms input[type="email"],
@@ -16907,7 +16886,7 @@ th {
 }
 
 /* Placeholders
-=============================== */
+  =============================== */
 .ts-forms input::-webkit-input-placeholder,
 .ts-forms textarea::-webkit-input-placeholder {
     color: rgba(0, 0, 0, .54);
@@ -16949,7 +16928,7 @@ th {
 }
 
 /* Select
-=============================== */
+  =============================== */
 .ts-forms select {
     padding-left: 13px;
 }
@@ -16996,7 +16975,7 @@ th {
 }
 
 /* Icons
-=============================== */
+  =============================== */
 .ts-forms .icon-left,
 .ts-forms .icon-right {
     color: rgba(0, 0, 0, .54);
@@ -17030,7 +17009,7 @@ th {
 }
 
 /* File for upload
-=============================== */
+  =============================== */
 .ts-forms .file-button input {
     bottom: -1px;
     font-size: 34px;
@@ -17101,7 +17080,7 @@ th {
 }
 
 /* Buttons
-=============================== */
+  =============================== */
 .ts-forms .primary-btn,
 .ts-forms .secondary-btn {
     border: medium none;
@@ -17241,7 +17220,7 @@ th {
 }
 
 /* Tooltip
-=============================== */
+  =============================== */
 .ts-forms .tooltip,
 .ts-forms .tooltip-image {
     background-color: #FF0000;
@@ -17411,7 +17390,7 @@ th {
 }
 
 /* Status message
-=============================== */
+  =============================== */
 .ts-forms .error-message,
 .ts-forms .success-message,
 .ts-forms .info-message,
@@ -17467,7 +17446,7 @@ th {
 }
 
 /* Disabled state
-=============================== */
+  =============================== */
 .ts-forms .widget.disabled-view,
 .ts-forms .input.disabled-view,
 .ts-forms .select.disabled-view,
@@ -17518,7 +17497,7 @@ th {
 }
 
 /* Error state
-=============================== */
+  =============================== */
 .ts-forms .error-view .checkbox i,
 .ts-forms .error-view .radio i,
 .ts-forms .error-view .checkbox-toggle i,
@@ -17556,7 +17535,7 @@ th {
 }
 
 /* Success state
-=============================== */
+  =============================== */
 .ts-forms .success-view .checkbox i,
 .ts-forms .success-view .radio i,
 .ts-forms .success-view .checkbox-toggle i,
@@ -17594,7 +17573,7 @@ th {
 }
 
 /* Warning state
-=============================== */
+  =============================== */
 .ts-forms .warning-view .checkbox i,
 .ts-forms .warning-view .radio i,
 .ts-forms .warning-view .checkbox-toggle i,
@@ -17632,7 +17611,7 @@ th {
 }
 
 /* Info state
-=============================== */
+  =============================== */
 .ts-forms .info-view .checkbox i,
 .ts-forms .info-view .radio i,
 .ts-forms .info-view .checkbox-toggle i,
@@ -17670,7 +17649,7 @@ th {
 }
 
 /* Ratings
-==================================== */
+  ==================================== */
 .ts-forms .rating-group {
     color: rgba(0, 0, 0, .87);
     height: 30px;
@@ -17722,7 +17701,7 @@ th {
 }
 
 /* Social links
-==================================== */
+  ==================================== */
 .ts-forms .social-btn,
 .ts-forms .social-icon {
     margin-bottom: 6px;
@@ -17918,7 +17897,7 @@ th {
 }
 
 /* Captcha
-=============================== */
+  =============================== */
 .ts-forms .captcha-group {
     position: relative;
 }
@@ -17951,7 +17930,7 @@ th {
 }
 
 /* Stepper
-=============================== */
+  =============================== */
 .ts-forms .stepper {
     position: relative;
     padding-right: 40px;
@@ -18037,7 +18016,7 @@ th {
 }
 
 /* Datapicker and Timepicker
-=============================== */
+  =============================== */
 .ui-datepicker {
     background-color: #fff;
     -webkit-border-radius: 3px;
@@ -18235,7 +18214,7 @@ th {
 }
 
 /* jQuery Slider
-=============================== */
+  =============================== */
 .ui-slider {
     position: relative;
 }
@@ -18331,7 +18310,7 @@ th {
 }
 
 /* Multistep form
-=============================== */
+  =============================== */
 .ts-forms fieldset {
     border: none;
     outline: none;
@@ -18432,7 +18411,7 @@ th {
 }
 
 /* Modal form
-=============================== */
+  =============================== */
 /* Settings for block with links */
 .modal-block {
     background-color: #fff;
@@ -18540,7 +18519,7 @@ th {
 }
 
 /* Pop-up form
-=============================== */
+  =============================== */
 /* Popup menu forms */
 .popup-menu {
     padding: 0 15px;
@@ -18966,7 +18945,7 @@ th {
 }
 
 /* Responsiveness
-==================================== */
+  ==================================== */
 /* Wrapper-640 */
 @media all and (max-width:620px) {
 
@@ -19096,7 +19075,7 @@ th {
 }
 
 /* Bootstrap compatibility
-=============================== */
+  =============================== */
 .ts-forms .radio,
 .ts-forms .checkbox,
 .ts-forms .radio-toggle,
@@ -19158,7 +19137,7 @@ span.error-view {
 
 
 /* Cloned elements
-=============================== */
+  =============================== */
 .ts-forms .content .clone-btn-right,
 .ts-forms .content .clone-btn-left {
     font-size: 14px;
@@ -19258,7 +19237,7 @@ span.error-view {
 
 /*----------------------------------------*/
 /*  1.  Theme default CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 
 #CHVAllowUserSelectFID {
     text-align: left !important;
@@ -19361,7 +19340,7 @@ ul {
     src: url('../fonts/adminpro-icon.ttf?4gzvyg') format('truetype'), url('../fonts/adminpro-icon.woff?4gzvyg') format('woff'), url('../fonts/adminpro-icon.svg?4gzvyg#adminpro-icon') format('svg');
     font-weight: normal;
     font-style: normal;
-} */
+  } */
 
 /* @font-face {
     font-family: "summernote";
@@ -19369,7 +19348,7 @@ ul {
     font-weight: normal;
     src: url("fonts/summernote.eot?0d0d5fac99cc8774d89eb08b1a8323c4");
     src: url("fonts/summernote.eot?#iefix") format("embedded-opentype"), url("fonts/summernote.woff?0d0d5fac99cc8774d89eb08b1a8323c4") format("woff"), url("fonts/summernote.ttf?0d0d5fac99cc8774d89eb08b1a8323c4") format("truetype");
-} */
+  } */
 
 .mg-tb-40 {
     margin: 40px 0px;
@@ -19454,7 +19433,7 @@ ul {
 
 /*----------------------------------------*/
 /*  2.  Header top Customize CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .header-top-menu .navbar-nav>li>a {
     padding: 20px 5px;
     font-size: 1.32rem;
@@ -19535,7 +19514,7 @@ ul {
 
 /*----------------------------------------*/
 /*  3.  Header top Menu CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .admin-logo {
     padding: 10px 0px;
 }
@@ -19789,7 +19768,7 @@ ul.message-menu li .message-img {
     font-size: 16px;
     border-radius: 50%;
     margin: 5px 10px 5px 0px;
-}*/
+  }*/
 
 ul.notification-menu li .notification-icon {
     float: left;
@@ -19848,7 +19827,7 @@ ul.notification-menu li .notification-content p {
     position: absolute;
     top: 175%;
     /*left: -358px;
-width: 400px;*/
+  width: 400px;*/
     left: -150px;
     width: 220px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, .175);
@@ -20080,7 +20059,7 @@ ul.setting-panel-list li {
 
 /*----------------------------------------*/
 /*  4.  main Menu CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .nav-tabs.custom-menu-wrap li a {
     color: #fff;
 }
@@ -20096,8 +20075,8 @@ ul.setting-panel-list li {
 .nav-tabs.custom-menu-wrap li a,
 .nav-tabs.custom-menu-wrap li.open a {
     /*  border: 1px solid transparent;
-padding: 9px 25px;
-font-size: 15px;*/
+  padding: 9px 25px;
+  font-size: 15px;*/
     border: 1px solid transparent;
     padding: 6px 15px;
     font-size: 13px;
@@ -20176,7 +20155,7 @@ font-size: 15px;*/
 
 /*----------------------------------------*/
 /*  5.  tinymce CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .tinymce-single .panel {
     margin-bottom: 0px;
 }
@@ -20187,7 +20166,7 @@ font-size: 15px;*/
 
 /*----------------------------------------*/
 /*  6.  Header top Menu CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .admin-logo {
     padding: 10px 0px;
 }
@@ -20276,7 +20255,7 @@ font-size: 15px;*/
 
 /*----------------------------------------*/
 /*  7.  Footer copy right CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .footer-copyright-area {
     background: #303030;
     padding: 10px 0px;
@@ -20308,7 +20287,7 @@ font-size: 15px;*/
 
 /*----------------------------------------*/
 /*  8.  Breadcome CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .breadcome-heading h2 {
     color: #303030;
     font-size: 20px;
@@ -20343,7 +20322,7 @@ ul.breadcome-menu li a:hover {
 
 /*----------------------------------------*/
 /*  9.  sparkline CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 
 
 .sparkline-hd,
@@ -20518,7 +20497,7 @@ ul.breadcome-menu li a:hover {
 
 /*----------------------------------------*/
 /*  10.  welcome Project, sale area CSS
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .welcome-wrapper {
     padding: 20px;
     background: #fff;
@@ -20648,7 +20627,7 @@ ul.message-list-menu li .message-serial.message-cl-six {
 
 /*----------------------------------------*/
 /*  11.  Dashboard v.1.0 comment
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .dashone-bar-small {
     float: right;
 }
@@ -20802,7 +20781,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  12.  Dashboard v.1.0 income
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .income-monthly {
     background: linear-gradient(to bottom, #b52ea4 0%, #f13800 100%);
 }
@@ -20904,7 +20883,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  13.  Dashboard v.1.0 timeline
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .mapael .map {
     position: relative;
 }
@@ -21018,7 +20997,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  14.  Dashboard v.1.0 datatable
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .custom-datatable-overright table tbody tr td {
     padding-left: 10px !important;
     padding-right: 5px !important;
@@ -21112,7 +21091,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  15.  Dashboard v.2.0
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .dashtwo-order-list {
     background: #fff;
     padding: 20px;
@@ -21137,7 +21116,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  16.  Dashboard progress bar
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .skill-content-3 {
     overflow: hidden;
 }
@@ -21222,7 +21201,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  17.  Dashboard Daily Feed css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .daily-feed-list {
     margin: 0px 0px 20px 0px;
     border-bottom: 1px solid #ccc;
@@ -21304,7 +21283,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  18.  Dashboard project list css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .custom-datatable-overright.dashtwo-project-list-data .pull-right.search {
     float: left !important;
     margin-top: 10px;
@@ -21403,7 +21382,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  19.  Dashboard chat css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .chat-list-wrap .chat-button .chat-icon-link {
     position: fixed;
     bottom: 40px;
@@ -21546,7 +21525,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  20.  Inbox css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .inbox-email-menu-list .compose-email a {
     padding: 10px 15px;
     display: block;
@@ -21634,7 +21613,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  21.  View Mail css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .mail-title {
     position: relative;
     height: 30px;
@@ -21788,7 +21767,7 @@ ul.comment-action-st li a {
 
 /*----------------------------------------*/
 /*  22.  Compose Mail css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .view-mail-reply-list ul.view-mail-forword li .compose-discard-bt,
 .view-mail-action a.compose-discard-bt {
     background: linear-gradient(to bottom, #b96f77 0%, #ca0e0e 100%);
@@ -21904,7 +21883,7 @@ li.multipleInput-email {
 
 /*----------------------------------------*/
 /*  23.  Analytics css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .analytics-adminpro-wrap {
     overflow: hidden;
 }
@@ -21974,7 +21953,7 @@ li.multipleInput-email {
 
 /*----------------------------------------*/
 /*  24.  Widgets css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .author-permissio-wrap {
     background: #fff;
     padding: 20px;
@@ -22541,7 +22520,7 @@ li.multipleInput-email {
 
 /*----------------------------------------*/
 /*  25.  Contact Client css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .contact-client-img {
     text-align: center;
 }
@@ -22629,7 +22608,7 @@ li.multipleInput-email {
 
 /*----------------------------------------*/
 /*  26.  profile css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .user-profile-sparkline {
     background: none;
     padding: 0px;
@@ -22832,7 +22811,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  27.  Project List css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .project-list-ad .btn {
     background: linear-gradient(to bottom, #1ab394 0%, #2dda7a 100%);
     color: #fff;
@@ -22896,7 +22875,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  28.  Project Details css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .admin-comment-month.project-details-action {
     margin-top: 5px;
 }
@@ -23004,7 +22983,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  29.  pdf css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .pdf-single-pro,
 .code-editor-single {
     padding: 20px;
@@ -23013,7 +22992,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  30.  Code Editor css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .code-editor-single h2 {
     font-size: 20px;
     color: #303030;
@@ -23022,7 +23001,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  31.  Google Map css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 #map {
     height: 100%;
 }
@@ -23062,7 +23041,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  32.  Data Maps css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 
 .data-map-area .sparkline7-graph,
 .data-map-area .sparkline8-graph,
@@ -23081,7 +23060,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  33.  Preloader css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .preloader-single {
     background: #fff;
     width: 100%;
@@ -23091,7 +23070,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  34.  Password Meter css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .password-meter {
     background: #fff;
     padding: 20px;
@@ -23121,7 +23100,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  35.  Tree Viewer css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 
 .tree-viewer-area .sparkline7-graph,
 .tree-viewer-area .sparkline8-graph,
@@ -23135,7 +23114,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  36.  Static Table css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .sparkline7-graph .static-table-list,
 .sparkline8-graph .static-table-list,
 .sparkline9-graph .static-table-list,
@@ -23172,7 +23151,7 @@ ul.profile-contact-menu {
 
 /*----------------------------------------*/
 /*  37.  Basic Form css
-/*----------------------------------------*/
+  /*----------------------------------------*/
 .sparkline8-graph .basic-login-inner,
 .sparkline8-graph .login-social-inner,
 .sparkline9-graph .basic-login-form-ad,
@@ -23906,8 +23885,8 @@ ul.profile-contact-menu {
 }
 
 /* ---------------------------------------------------
-SIDEBAR STYLE
------------------------------------------------------ */
+  SIDEBAR STYLE
+  ----------------------------------------------------- */
 .container.header-top-fx {
     position: fixed;
     z-index: 999999999;
@@ -24129,8 +24108,8 @@ SIDEBAR STYLE
 }
 
 /* ---------------------------------------------------
-Material Design
------------------------------------------------------ */
+  Material Design
+  ----------------------------------------------------- */
 .darklayout .welcome-wrapper,
 .darklayout .dashboard-line-chart,
 .darklayout .dashone-adminprowrap,
@@ -24902,8 +24881,8 @@ ul.breadcome-menu {
 }
 
 /*.materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:hover, .materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:focus, .materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:active, .materialdesign .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li a:visited {
-color: #fff;
-}*/
+  color: #fff;
+  }*/
 
 
 
@@ -25078,7 +25057,7 @@ div#sparklinedask1 {
 .accepted-payment-methods li {
     display: inline-block;
     /*    width: 50px;
-height: 30px;*/
+  height: 30px;*/
     width: 48px;
     height: 27px;
     /* background: url('../img/payment_sprite.png'); */
@@ -25295,14 +25274,14 @@ jconfirm-holder {
 
 #personalInfoDetailPanel {
     /*  width: 50%;
-margin-left: 12%;*/
+  margin-left: 12%;*/
     width: 49%;
     margin-left: 12%;
 }
 
 #personalInfoImagePanel {
     /*  width: 40%;
-margin-left: -2%;*/
+  margin-left: -2%;*/
     width: 46%;
     margin-left: -7%;
 }
@@ -25490,9 +25469,9 @@ margin-left: -2%;*/
 }
 
 /*#CustomerInfoDtails .form-group-inner .row .col-md-4 {
- 
-text-align: right !important;
-}*/
+  
+  text-align: right !important;
+  }*/
 
 
 
@@ -26254,10 +26233,10 @@ table.dataTable tfoot th,
 }
 
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+  * Bootstrap v3.3.6 (http://getbootstrap.com)
+  * Copyright 2011-2015 Twitter, Inc.
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
@@ -34602,16 +34581,16 @@ button.close {
 
 
 /*!
- *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+  */
 /* @font-face {
     font-family: 'FontAwesome';
     src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal
-} */
+  } */
 
 .fa {
     display: inline-block;

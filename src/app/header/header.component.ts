@@ -33,7 +33,7 @@ export class HeaderComponent implements OnInit {
           || this.currentRoute == '/EPinChangePassword' || this.currentRoute == '/EPinChangePassword' || this.currentRoute == "/RankQualifiersReport" || this.currentRoute == '/LevelReconcilationReport' || this.currentRoute == '/RankQualifiersReport'
           || this.currentRoute == '/SchemeOfferDetailsReport' || this.currentRoute == '/MatchingIncomeReconsulationReport' || this.currentRoute == '/RenewalIncomeReconciliationReport' || this.currentRoute == '/WelcomeLetterDetails' || this.currentRoute == '/Customerinfo' || this.currentRoute == '/OrderHistory'
           || this.currentRoute == '/CustomerInvoices' || this.currentRoute == '/CustomerKYCDocument' || this.currentRoute == '/download' || this.currentRoute == '/customerChangepassword' || this.currentRoute == '/RenewalDetails' || this.currentRoute == '/ShowIdCardDetails'
-          || this.currentRoute == '/UpgradeDetails') {
+          || this.currentRoute == '/UpgradeDetails' || this.currentRoute == '/SponsorRegister') {
           this.set = false;
         }
       }
